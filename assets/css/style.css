@@ -62,6 +62,11 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#highlight-text, #highlight-text h2 {
+color: rgb(255, 255, 255);
 }
 
 #hero-image {
@@ -85,6 +90,22 @@ h1, h2 {
         transform: scale(1);
         filter: blur(0);
     }
+}
+
+#highlight-text {
+    font-size: 100%;
+    font-family: Lora, sans-serif;
+    letter-spacing: 2px;
+    width: 400px;
+    height: 200px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 20px;
+    border-radius: 10% 25%;
+    background-color: rgba(7, 64, 96, 0.7);
+    bottom: 30px;
+    left: 150px;
+    position: absolute;
 }
 
 /* footer */
