@@ -13,17 +13,45 @@ body {
     color: #153651;
 }
 
-/* headdings and logo*/
+/* headdings */
 
 h1, h2 {
     font-family: Cinzel Decorative, sans-serif;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #153651;
 }
 
-
+/* logo and nagivation links */
 #logo {
     float: left;
     font-size: 280%;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo{
+    line-height: 90px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid blue;
+}
+
+.active {
+    border-bottom: 1px solid blue;
 }
