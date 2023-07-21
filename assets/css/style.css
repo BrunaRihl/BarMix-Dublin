@@ -55,3 +55,14 @@ h1, h2 {
 .active {
     border-bottom: 1px solid blue;
 }
+
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networs {
+    text-align: center;
+}
