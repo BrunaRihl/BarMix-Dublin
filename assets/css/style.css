@@ -113,6 +113,9 @@ color: rgb(255, 255, 255);
 footer {
     height: 150px;
 }
+#icon-zoom-effect a:hover {
+    font-size: 130%;
+ }
 
 .social-networks {
     text-align: center;
@@ -128,3 +131,4 @@ footer {
     padding: 5%;
     color: #153651
 }
+
