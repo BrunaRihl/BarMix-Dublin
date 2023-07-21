@@ -29,12 +29,12 @@ h1, h2 {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 2px;
 }
 
 #menu, #logo{
-    line-height: 90px;
+    line-height: 70px;
 }
 #menu li {
     float: right;
@@ -58,10 +58,33 @@ h1, h2 {
 
 /* hero image */
 
-#hero-image{
+#hero-out {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image-bartender.jpg') no-repeat center center;
+    background-size: cover;
+    /*animater unblur effect*/
+    filter: unblur(10px);
+    animation: hero-unblur 2s ease-in-out;
+}
+
+/* creates the blur effect for hero image */
+
+@keyframes hero-unblur {
+    0%{
+        transform: scale(1.2);
+        filter: blur(10px);
+    }
+    100%{
+        transform: scale(1);
+        filter: blur(0);
+    }
 }
 
 /* footer */
