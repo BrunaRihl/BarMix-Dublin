@@ -6,11 +6,25 @@
     border: none;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+
+header nav {
+    display:flex;
+    align-items:center;
+}
+
 body {
     font-family: Lora, sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     color: #153651;
+    
 }
 
 /* headdings */
@@ -24,23 +38,20 @@ h1, h2 {
 
 /* logo and nagivation links */
 #logo {
-    float: left;
+    padding-left: 30px;
     font-size: 280%;
 }
 
 #menu {
-    font-size: 100%;
     letter-spacing: 2px;
 }
 
-#menu, #logo{
-    line-height: 70px;
-}
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
 
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
 }
 
 #menu a {
@@ -56,6 +67,9 @@ h1, h2 {
     border-bottom: 1px solid blue;
 }
 
+.text-center {
+    text-align: center;
+}
 /* hero image */
 
 #hero-out {
@@ -111,24 +125,67 @@ color: rgb(255, 255, 255);
 /* about us */
 #about-us {
     height: 600px;
+    border-color: #153651;
+    border-style: double;
+    border-radius: 20% 0%;
+    border-width: 5px;
+    display: flex;
+    align-items: center
+
+}
+
+
+#about-image {
+    height: 80%;
+    background-image: url("../images/about-us.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 60%;
 }
 
 #about-text {
-    padding-top: 30px;
-    width: 50%;
-    float: left
+    width: 40%;
+    padding: 100px;
+    
+
 
 }
 
 /* why choose us */
 #choose-us {
-    background-image: url(../images/why-choose-us.jpg);
-    background-repeat: no-repeat;
+    background-image: url("../images/choose-us2.jpg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
     width: 100%;
+    height: 300px;
+    border-radius: 0% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    
+    
 }
+
+#choose-us i{
+    font-size: 150%;
+}
+
+#choose-us div {
+    color: rgb(240, 240, 230);
+    background-color: rgba(0, 0, 0, .5);
+    padding:20px;
+    
+
+}
+
+#choose-us h2 {
+    color: rgb(240, 240, 230);;
+
+}
+
+
 
 /* footer */
 
@@ -136,8 +193,8 @@ footer {
     height: 150px;
     width: 100%;
 }
-#icon-zoom-effect a:hover {
-    font-size: 130%;
+#icon-zoom-effect i:hover {
+    color:red;
  }
 
 .social-networks {
@@ -145,13 +202,59 @@ footer {
 }
 
 .social-networks > li {
-    display: inline;
+    display: inline-block;
+    margin: 20px;
 }
 
+
 .social-networks i {
+    transition: color 0.5s ease;
     font-size: 200%;
-    margin: 1%;
-    padding: 5%;
     color: #153651
 }
 
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    #logo {
+        padding-left: 0;
+        margin: 25px 0;
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    #menu li {
+        margin: 5px;
+    }
+
+    #choose-us, #about-us {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #about-image {
+        height: 400px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+  }
