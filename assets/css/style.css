@@ -108,8 +108,22 @@ color: rgb(255, 255, 255);
     position: absolute;
 }
 /* about us */
+#about-us {
+    height: 600px;
+}
 
+#about-text {
+    padding-top: 30px;
+    width: 50%;
+    float: left
 
+}
+
+#about-image {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
 
 /* footer */
 
