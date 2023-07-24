@@ -107,6 +107,7 @@ color: rgb(255, 255, 255);
     left: 50px;
     position: absolute;
 }
+
 /* about us */
 #about-us {
     height: 600px;
@@ -119,7 +120,15 @@ color: rgb(255, 255, 255);
 
 }
 
-
+/* why choose us */
+#choose-us {
+    background-image: url(../images/why-choose-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+}
 
 /* footer */
 
