@@ -119,16 +119,13 @@ color: rgb(255, 255, 255);
 
 }
 
-#about-image {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
-}
+
 
 /* footer */
 
 footer {
     height: 150px;
+    width: 100%;
 }
 #icon-zoom-effect a:hover {
     font-size: 130%;
