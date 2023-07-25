@@ -34,7 +34,7 @@ header nav {
 
 body {
     font-family: Lora, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 1px;
     background-color: var(--main-primary);
     color: var(--text-primary);
@@ -79,14 +79,22 @@ header a {
 #menu a {
     text-decoration: none;
     color: inherit;
+    border: 1px solid var(--main-primary);
+    border-radius: 20px;
+    padding: 10px;
+    transition: border 0.8s ease;
 }
 
+
 #menu a:hover {
-    border-bottom: 1px solid var(--text-secondary);
+    color:var(--text-secondary);
+    border: 1px solid var(--text-secondary);
+    
 }
 
 .active {
-    border-bottom: 1px solid var(--text-secondary);
+    color:var(--text-secondary);
+    font-weight: bold;
 }
 
 /* hero image */
@@ -175,6 +183,10 @@ color: var(--white)
     margin: 50px;
 }
 
+#about-text h3{
+    text-align: center;
+}
+
 #choose-us {
     display: flex;
     flex-direction: column;
@@ -212,7 +224,7 @@ color: var(--white)
 #choose-us-content div {
     color: var(--white);
     background-color: rgba(0, 0, 0, .5);
-    padding:20px;
+
     padding: 30px 10px;
     
 
