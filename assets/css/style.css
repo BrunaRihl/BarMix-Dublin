@@ -150,14 +150,14 @@ color: var(--white)
     margin: 0px;
     min-height: 600;
     align-items: center;
-    background-color: var(--about-primary);
-    color: var(--main-primary);
+    background-color: var(--main-primary);
+    color: var(--text-primary);
 
 }
 
 #about-us h2 {
     margin-top: 20px;
-    color: var(--main-primary);
+    color: var(--text-primary);
 }
 
 #about-us .content{
@@ -170,7 +170,7 @@ color: var(--white)
     max-width: 40%;
     padding: 20px;
     border-radius: 20% 0%;
-    box-shadow: 0px 0px 30px var(--text-secondary);
+    box-shadow: 0px 0px 30px var(--main-secondary);
     align-content: center;
     margin: 50px;
 }
@@ -227,7 +227,11 @@ footer {
     height: 150px;
     width: 100%;
     font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+    
 
 .icon-zoom-effect i:hover {
     color:var(--text-secondary);
@@ -280,11 +284,15 @@ footer {
         margin: 5px;
     }
 
-    #choose-us, #about-us .content {
+    #choose-us-content, #about-us .content {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: fit-content;
+    }
+
+    #choose-us-content div{
+        padding: 10px 20px;
     }
 
     #about-text {
