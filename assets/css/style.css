@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora:ital@1&display=swap');
 
+:root {
+
+    --main-primary: #fdfdfd;
+    --main-secondary: #cdcdcd;
+    --text-primary: #153651;
+    --text-secondary: #235681;
+    --white: rgb(255, 255, 255);
+
+    --about-primary: #333333;
+    --about-secondary: #555555;
+    
+}
 
 *{
     margin: 0;
@@ -24,7 +36,8 @@ body {
     font-family: Lora, sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #153651;
+    background-color: var(--main-primary);
+    color: var(--text-primary);
 }
 
 p {
@@ -37,7 +50,7 @@ h1, h2 {
     font-family: Cinzel Decorative, sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #153651;
+    color: var(--text-primary);
 }
 
 /* logo and nagivation links */
@@ -69,16 +82,13 @@ header a {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid var(--text-secondary);
 }
 
 .active {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid var(--text-secondary);
 }
 
-.text-center {
-    text-align: center;
-}
 /* hero image */
 
 #hero-out {
@@ -89,7 +99,7 @@ header a {
 }
 
 #highlight-text, #highlight-text h2 {
-color: rgb(255, 255, 255);
+color: var(--white)
 }
 
 #hero-image {
@@ -140,11 +150,14 @@ color: rgb(255, 255, 255);
     margin: 0px;
     min-height: 600;
     align-items: center;
+    background-color: var(--about-primary);
+    color: var(--main-primary);
 
 }
 
 #about-us h2 {
     margin-top: 20px;
+    color: var(--main-primary);
 }
 
 #about-us .content{
@@ -157,13 +170,19 @@ color: rgb(255, 255, 255);
     max-width: 40%;
     padding: 20px;
     border-radius: 20% 0%;
-    box-shadow: 0px 0px 30px #153651;
+    box-shadow: 0px 0px 30px var(--text-secondary);
     align-content: center;
     margin: 50px;
 }
 
-/* why choose us */
 #choose-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* why choose us */
+#choose-us-content {
     background-image: url("../images/choose-us2.jpg");
     background-size: cover;
     background-position: center;
@@ -172,28 +191,34 @@ color: rgb(255, 255, 255);
     height: 300px;
     border-radius: 0% 20%;
     display: flex;
-    justify-content: center;
+ 
     align-items: stretch;
+    color: var(--white);
+    text-align: center;
+    justify-content: space-around;
     
 }
 
+#choose-us h2{
+    
+    margin-top: 20px;
+}
+
 #choose-us i{
+    color: var(--white);
     font-size: 150%;
 }
 
-#choose-us div {
-    color: rgb(240, 240, 230);
+#choose-us-content div {
+    color: var(--white);
     background-color: rgba(0, 0, 0, .5);
     padding:20px;
-    padding: 30px 0;
+    padding: 30px 10px;
+    
 
 
 }
 
-#choose-us h2 {
-    color: rgb(240, 240, 230);;
-
-}
 
 
 /* footer */
@@ -205,7 +230,7 @@ footer {
 }
 
 .icon-zoom-effect i:hover {
-    color:blue;
+    color:var(--text-secondary);
     font-weight: bold;
  }
 
@@ -222,7 +247,7 @@ footer {
 .social-networks i {
     transition: color 0.5s ease;
     font-size: 200%;
-    color: #153651
+    color: var(--text-primary)
 }
 
 /* On screens that are 600px or less, set the background color to olive */
