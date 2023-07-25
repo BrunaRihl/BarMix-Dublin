@@ -260,6 +260,20 @@ color: var(--white)
 
 /* Gallery */
 
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img{
+    width:  325px;
+    height: 400px;
+    border-radius: 20% 0%;
+    object-fit: cover;
+    object-position: center;
+    margin:10px
+}
 
 /* footer */
 
