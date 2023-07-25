@@ -175,16 +175,26 @@ color: var(--white)
 
 
 .card {
-    max-width: 40%;
+    width: 40%;
     padding: 20px;
     border-radius: 20% 0%;
     box-shadow: 0px 0px 30px var(--main-secondary);
     align-content: center;
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .card h3{
     text-align: center;
+}
+
+
+.card img{
+    align-self: center;
+    padding: 20px 0;
+    width: 90%;
 }
 
 #choose-us {
@@ -308,7 +318,7 @@ footer {
     }
 
     .card {
-        max-width: 100%;
+        width: 70%;
     }
 
     #about-image {
