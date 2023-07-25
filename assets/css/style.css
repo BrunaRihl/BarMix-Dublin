@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora:ital@1&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,10 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
     color: #153651;
-    
+}
+
+p {
+    line-height: 2rem;
 }
 
 /* headdings */
@@ -40,6 +44,11 @@ h1, h2 {
 #logo {
     padding-left: 30px;
     font-size: 280%;
+
+}
+
+header a {
+    text-decoration: none;
 }
 
 #menu {
@@ -124,32 +133,33 @@ color: rgb(255, 255, 255);
 
 /* about us */
 #about-us {
-    height: 600px;
-    border-color: #153651;
-    border-style: double;
-    border-radius: 20% 0%;
-    border-width: 5px;
     display: flex;
-    align-items: center
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    min-height: 600;
+    align-items: center;
 
 }
 
-
-#about-image {
-    height: 80%;
-    background-image: url("../images/about-us.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 60%;
+#about-us h2 {
+    margin-top: 20px;
 }
+
+#about-us .content{
+    display: flex;
+    flex-direction: row;
+}
+
 
 #about-text {
-    width: 40%;
-    padding: 100px;
-    
-
-
+    max-width: 40%;
+    padding: 20px;
+    border-radius: 20% 0%;
+    box-shadow: 0px 0px 30px #153651;
+    align-content: center;
+    margin: 50px;
 }
 
 /* why choose us */
@@ -165,7 +175,6 @@ color: rgb(255, 255, 255);
     justify-content: center;
     align-items: stretch;
     
-    
 }
 
 #choose-us i{
@@ -176,7 +185,8 @@ color: rgb(255, 255, 255);
     color: rgb(240, 240, 230);
     background-color: rgba(0, 0, 0, .5);
     padding:20px;
-    
+    padding: 30px 0;
+
 
 }
 
@@ -186,15 +196,17 @@ color: rgb(255, 255, 255);
 }
 
 
-
 /* footer */
 
 footer {
     height: 150px;
     width: 100%;
+    font-size: 130%;
 }
-#icon-zoom-effect i:hover {
-    color:red;
+
+.icon-zoom-effect i:hover {
+    color:blue;
+    font-weight: bold;
  }
 
 .social-networks {
@@ -243,11 +255,15 @@ footer {
         margin: 5px;
     }
 
-    #choose-us, #about-us {
+    #choose-us, #about-us .content {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: fit-content;
+    }
+
+    #about-text {
+        max-width: 100%;
     }
 
     #about-image {
