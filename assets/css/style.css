@@ -152,7 +152,6 @@ color: var(--white)
 /* about us */
 #about-us {
     display: flex;
-  
     flex-direction: column;
     justify-content: center;
     margin: 0px;
@@ -160,7 +159,6 @@ color: var(--white)
     align-items: center;
     background-color: var(--main-primary);
     color: var(--text-primary);
-
 }
 
 #about-us h2 {
@@ -182,7 +180,6 @@ color: var(--white)
     margin: 50px;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -229,16 +226,13 @@ color: var(--white)
     height: 300px;
     border-radius: 0% 20%;
     display: flex;
- 
     align-items: stretch;
     color: var(--white);
     text-align: center;
     justify-content: space-around;
-    
 }
 
 #choose-us h2{
-    
     margin-top: 20px;
 }
 
@@ -250,20 +244,24 @@ color: var(--white)
 #choose-us-content div {
     color: var(--white);
     background-color: rgba(0, 0, 0, .5);
-
     padding: 30px 10px;
-    
-
-
 }
 
 
 /* Gallery */
 
+#gallery-text{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin: 50px;
+}
+
 #gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 20px;
 }
 
 #gallery img{
@@ -272,7 +270,7 @@ color: var(--white)
     border-radius: 20% 0%;
     object-fit: cover;
     object-position: center;
-    margin:10px
+    margin:20px
 }
 
 /* footer */
