@@ -285,7 +285,6 @@ footer {
     justify-content: center;
     align-items: flex-end;
 }
-    
 
 .icon-zoom-effect i:hover {
     color:var(--text-secondary);
@@ -348,8 +347,6 @@ footer {
     #choose-us-content div{
         padding: 10px 20px;
     }
-
-
 
     #about-image {
         height: 400px;
