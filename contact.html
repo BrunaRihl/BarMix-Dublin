@@ -37,34 +37,72 @@
     <main>
 
         <!-- form section -->
-    <main>
+        <main>
+            <section>
+                <p class='top-text'>Sit back, relax, and let our team of skilled bartenders take care of every detail,
+                    ensuring that your event is a resounding success. </p>
+                <div class=contact-section>
+                    <div>
+                        <form method="POST" action="https://formdump.codeinstitute.net/" class="form">
+                            <h2>Contact us! <i class="fa-solid fa-champagne-glasses"></i></h2>
+                            <label for="fname">First Name</label>
+                            <input id="fname" name="first_name" type="text" required class="text-input">
 
-    </main>
-    
+                            <label for="lname">Last Name</label>
+                            <input id="lname" name="last_name" type="text" required class="text-input">
 
-    <!-- footer section -->
-    <footer>
-        <ul class="social-networks icon-zoom-effect">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i
-                        class="fa-brands fa-square-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i
-                        class="fa-brands fa-square-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-square-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email_address" required class="text-input">
 
-    <!-- font awesome script-->
-    <script src="https://kit.fontawesome.com/90531fc6b0.js" crossorigin="anonymous"></script>
+                            <label for="services">Service</label>
+                            <select id="services" name="services" required>
+                                <option value="Event-Bar">Event Bar</option>
+                                <option value="Mixology-Workshops">Mixology Workshops</option>
+                                <option value="Mobile-Mixology">Mobile Mixology</option>
+                            </select>
+
+                            <div>
+                            <br>
+                            <label for="date">Date:</label>
+                            <input type="date" id="date" name="date">
+                            </div>
+                            <div>
+                                <br>
+                                <label for="message">Send your message:</label>
+                                <br>
+                                <textarea id="message" placeholder="Send us a few details about your event, number of people and location." rows="4" cols="40" name="message"  required></textarea>
+                            </div>
+                            <input class="send-button" type="submit" value="Send!">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- footer section -->
+        <footer>
+            <ul class="social-networks icon-zoom-effect">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i
+                            class="fa-brands fa-square-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- font awesome script-->
+        <script src="https://kit.fontawesome.com/90531fc6b0.js" crossorigin="anonymous"></script>
 
 </body>
 
