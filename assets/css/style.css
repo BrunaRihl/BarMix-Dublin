@@ -7,7 +7,6 @@
     --text-primary: #153651;
     --text-secondary: #235681;
     --white: rgb(255, 255, 255);
-
     --about-primary: #333333;
     --about-secondary: #555555;
     
@@ -281,7 +280,7 @@ header a {
     background: url('../images/.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-wrap: wrap;
     
@@ -289,14 +288,13 @@ header a {
 
 .form {
     color: var(--white);
+    font-size: 105%;
     background-color:rgba(7, 64, 96, 0.9);
     max-width: 400px;
     padding: 30px;
     margin: 10px;
     border-radius: 20% 0;
     flex-direction: row;
-    align-content: center;
-
 }
 
 .form>h2 {
@@ -305,6 +303,23 @@ header a {
     text-align: center;
 }
 
+.text-form {
+    color: black;
+    font-family: Lora, sans-serif;;
+    font-size: 105%;
+    background-color: rgb(255, 244, 244);
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.text-form-white {
+    color: white;
+    font-family: Lora, sans-serif;;
+    font-size: 105%;
+    padding: 1%;
+}
+
+
 .text-input {
     background: transparent;
     color: var(--white);
@@ -312,7 +327,7 @@ header a {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid var(--white);
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .text-input:hover {
