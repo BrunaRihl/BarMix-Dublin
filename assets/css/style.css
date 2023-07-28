@@ -468,3 +468,9 @@ footer {
     
   }
 
+  /* On screens that are 330px or less*/
+  @media screen and (max-width: 330px) {
+    .form {
+        max-width: 250px;
+    }
+}
