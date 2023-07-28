@@ -191,7 +191,7 @@ header a {
 }
 
 .card-packages {
-    min-width: 90%;
+    min-width: 80%;
 }
 
 .card-max {
@@ -277,7 +277,7 @@ header a {
 /*Contact us*/
 
 .contact-section {
-    background: url('../images/.jpg');
+    background: url('../images/Meu\ projeto\ \(27\).jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -386,7 +386,7 @@ footer {
     color: var(--text-primary)
 }
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less */
 @media screen and (max-width: 600px) {
 
     header {
@@ -441,6 +441,9 @@ footer {
         margin-bottom: 20px;
     }
 
+    .card {
+        margin: 20px;
+    }
     .card-about-us {
         max-width: 100%;
     }
@@ -454,4 +457,14 @@ footer {
     }
 
     
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+        border: 0px solid var(--main-primary);
+        padding: 5px;
+        transition: border 0.0s ease;
+    }
+
+    
   }
+
