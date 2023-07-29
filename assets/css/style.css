@@ -418,6 +418,7 @@ footer {
 footer p{
     font-size: 75%;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .icon-zoom-effect i:hover {
