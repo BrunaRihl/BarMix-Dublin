@@ -8,8 +8,7 @@
     --text-secondary: #235681;
     --white: rgb(255, 255, 255);
     --about-primary: #333333;
-    --about-secondary: #555555;
-    
+    --about-secondary: #555555;  
 }
 
 *{
@@ -54,6 +53,7 @@ h1, h2 {
 
 /* logo and nagivation links */
 #logo {
+    margin-top: 8px;
     padding-left: 30px;
     font-size: 280%;
 
@@ -110,12 +110,12 @@ header a {
     width: 100%;
     background: url('../images/hero-image-bartender.jpg') no-repeat center center;
     background-size: cover;
-    /*animater unblur effect*/
+    /*animated unblur effect*/
     filter: unblur(10px);
     animation: hero-unblur 2s ease-in-out;
 }
 
-/* creates the blur effect for hero image */
+/* creates the blur/zoom effect for hero image */
 
 @keyframes hero-unblur {
     0%{
@@ -134,13 +134,11 @@ header a {
     letter-spacing: 2px;
     width: 250px;
     height: 250px;
-    padding-top: 40px;
-    padding-right: 10px;
-    padding-left: 20px;
+    padding: 40px 10px 0 20px;
     border-radius: 10% 25%;
-    background-color: rgba(7, 64, 96, 0.7);
+    background-color: rgba(7, 64, 96, 0.8);
     bottom: 30px;
-    left: 50px;
+    left: 40px;
     position: absolute;
 }
 
@@ -277,12 +275,12 @@ header a {
 /*Contact us*/
 
 .contact-section {
-    background: url('../images/Meu\ projeto\ \(27\).jpg');
+    background: url('../images/contact-background.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
     display: flex;
-    flex-wrap: wrap;
+
     
 }
 
@@ -293,8 +291,7 @@ header a {
     max-width: 400px;
     padding: 30px;
     margin: 10px;
-    border-radius: 20% 0;
-    flex-direction: row;
+    border-radius: 20% 0; 
 }
 
 .form>h2 {
@@ -319,7 +316,6 @@ header a {
     padding: 1%;
 }
 
-
 .text-input {
     background: transparent;
     color: var(--white);
@@ -328,23 +324,34 @@ header a {
     margin: 5px 0 20px 0;
     border: 1px solid var(--white);
     border-radius: 5px;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease-in-out;
 }
 
-.text-input:hover {
-    border-color: var(--text-primary);
+
+
+.text-input:hover {  
+    border: 2px solid white;
 }
+
+
+.text-input:focus {  
+    outline: none;
+    background-color: var(--text-secondary);
+}
+
 
 .send-button {
     margin-top: 20px;
     border-radius: 10px;
-    border-color: var(--white);
-    border-style:double;
+    border: 1px solid var(--white);
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
     background-color: var(--text-primary);
     color: #fafafa;
-    display: block;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .send-button:hover {
@@ -357,12 +364,19 @@ header a {
 /* footer */
 
 footer {
+    margin-top: 20px;
     height: 150px;
     width: 100%;
-    font-size: 130%;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer p{
+    font-size: 75%;
+    margin-bottom: 10px;
 }
 
 .icon-zoom-effect i:hover {
@@ -371,6 +385,7 @@ footer {
  }
 
 .social-networks {
+    font-size: 130%;
     text-align: center;
 }
 
@@ -473,4 +488,10 @@ footer {
     .form {
         max-width: 250px;
     }
+
+    nav {
+        font-size: 90%;
+    }
+
 }
+
