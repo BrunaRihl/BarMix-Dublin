@@ -159,53 +159,94 @@ header a {
 }
 
 #about-us h2 {
-    margin-top: 20px;
+    margin-top: 40px;
     color: var(--text-primary);
 }
+
+#about-us h3 {
+    margin-top: 20px;
+    padding: 20px;
+}
+
 
 #about-us .content{
     display: flex;
     flex-direction: row;
 }
 
-
-.card {   
+.content-about-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-about-us {
+    margin: 20px;
     padding: 20px;
+    width: 500px;
     border-radius: 20% 0%;
     box-shadow: 0px 0px 30px var(--main-secondary);
-    align-content: center;
-    margin: 50px;
+}
+
+.content-services {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.content-services h3{
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20% 0%;
+    box-shadow: 0px 0px 30px var(--main-secondary);
+    margin: 20px;
+    
 }
 
 
-.card-about-us {
-    max-width: 40%;
+.card  img {
+    padding: 40px;
+    width: 350px;
+    object-position: center;
+    object-fit: cover;
+    box-sizing: border-box;
+    height: 250px;
 }
 
-.card-services {
-    max-width: 25%;
+.card p {
+    padding-right: 20px;
+    width: 450px;
+}
+
+.text-padding {
+    padding: 30px 0;
 }
 
 .card-packages {
-    min-width: 80%;
+    border-radius: 20% 0%;
+    box-shadow: 0px 0px 30px var(--main-secondary);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
 }
 
-.card-max {
-    width: 40%;
+.card-packages ul {
+    list-style: none;
+    text-align: left;
+    padding: 20px;
 }
 
-.card h3{
-    text-align: center;
+.card-packages ul li{
+    margin-bottom: 20px;
 }
 
-
-.card img{
-    align-self: center;
-    padding: 20px 0;
-    width: 90%;
-}
 
 #choose-us {
     display: flex;
@@ -220,7 +261,7 @@ header a {
     background-position: center;
     overflow: hidden;
     width: 100%;
-    height: 300px;
+
     border-radius: 0% 20%;
     display: flex;
     align-items: stretch;
@@ -241,7 +282,7 @@ header a {
 #choose-us-content div {
     color: var(--white);
     background-color: rgba(0, 0, 0, .5);
-    padding: 30px 10px;
+    padding: 70px 10px;
 }
 
 
@@ -402,7 +443,7 @@ footer p{
 }
 
 /* On screens that are 600px or less */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
 
     header {
         display: flex;
@@ -447,7 +488,7 @@ footer p{
     }
 
     #choose-us-content div{
-        padding: 10px 20px;
+        padding: 40px 20px;
     }
 
     #about-image {
@@ -456,20 +497,6 @@ footer p{
         margin-bottom: 20px;
     }
 
-    .card {
-        margin: 20px;
-    }
-    .card-about-us {
-        max-width: 100%;
-    }
-    
-    .card-services {
-        max-width: 100%;
-    }
-    
-    .card-packages {
-        max-width: 80%;
-    }
 
     
     #menu a {
@@ -479,6 +506,36 @@ footer p{
         padding: 5px;
         transition: border 0.0s ease;
     }
+
+    .card {
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .card img {
+
+        width: 300px;
+        object-position: top;
+        object-fit: cover;
+    }
+
+    .card p {
+        width: 200px;
+    }
+
+
+    .card-about-us, .card-packages{
+        margin: 20px;
+        width: 80%;
+        height: auto;
+    }
+
+    .card-packages p{    
+        width: 50%;
+    }
+
 
     
   }
