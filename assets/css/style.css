@@ -545,11 +545,18 @@ footer p{
   @media screen and (max-width: 330px) {
     .form {
         max-width: 250px;
+        margin: 5px;
     }
 
     nav {
         font-size: 90%;
     }
+
+    .card {
+        margin: 0;
+    }
+
+    
 
 }
 
