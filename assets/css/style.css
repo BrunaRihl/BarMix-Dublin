@@ -8,10 +8,10 @@
     --text-secondary: #235681;
     --white: rgb(255, 255, 255);
     --about-primary: #333333;
-    --about-secondary: #555555;  
+    --about-secondary: #555555;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -26,8 +26,8 @@ header {
 }
 
 header nav {
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
 
 body {
@@ -43,13 +43,14 @@ p {
 }
 
 /* headdings */
-
-h1, h2 {
+h1,
+h2 {
     font-family: Cinzel Decorative, sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
     color: var(--text-primary);
 }
+
 
 /* logo and nagivation links */
 #logo {
@@ -84,20 +85,19 @@ header a {
     transition: border 0.8s ease;
 }
 
-
 #menu a:hover {
-    color:var(--text-secondary);
+    color: var(--text-secondary);
     border: 1px solid var(--text-secondary);
-    
+
 }
 
 .active {
-    color:var(--text-secondary);
+    color: var(--text-secondary);
     font-weight: bold;
 }
 
-/* hero image */
 
+/* hero image */
 #hero-out {
     height: 600px;
     width: 100%;
@@ -118,11 +118,12 @@ header a {
 /* creates the blur/zoom effect for hero image */
 
 @keyframes hero-unblur {
-    0%{
+    0% {
         transform: scale(1.2);
         filter: blur(10px);
     }
-    100%{
+
+    100% {
         transform: scale(1);
         filter: blur(0);
     }
@@ -142,9 +143,10 @@ header a {
     position: absolute;
 }
 
-#highlight-text, #highlight-text h2 {
+#highlight-text,
+#highlight-text h2 {
     color: var(--white)
-    }
+}
 
 /* about us */
 #about-us {
@@ -169,7 +171,7 @@ header a {
 }
 
 
-#about-us .content{
+#about-us .content {
     display: flex;
     flex-direction: row;
 }
@@ -180,6 +182,7 @@ header a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .card-about-us {
     margin: 20px;
     padding: 20px;
@@ -194,10 +197,9 @@ header a {
     align-items: center;
 }
 
-.content-services h3{
+.content-services h3 {
     margin-top: 20px;
     padding: 10px;
-
 }
 
 .card {
@@ -206,17 +208,13 @@ header a {
     border-radius: 20% 0%;
     box-shadow: 0px 0px 30px var(--main-secondary);
     margin: 20px;
-    
 }
 
-
-.card  img {
+.card img {
     padding: 40px;
     width: 350px;
-    object-position: center;
     object-fit: cover;
     box-sizing: border-box;
-    height: 250px;
 }
 
 .card p {
@@ -226,6 +224,7 @@ header a {
 
 .text-padding {
     padding: 30px 0;
+    align-self: center;
 }
 
 .card-packages {
@@ -243,10 +242,9 @@ header a {
     padding: 20px;
 }
 
-.card-packages ul li{
+.card-packages ul li {
     margin-bottom: 20px;
 }
-
 
 #choose-us {
     display: flex;
@@ -261,7 +259,6 @@ header a {
     background-position: center;
     overflow: hidden;
     width: 100%;
-
     border-radius: 0% 20%;
     display: flex;
     align-items: stretch;
@@ -270,11 +267,15 @@ header a {
     justify-content: space-around;
 }
 
-#choose-us h2{
+#choose-us-content h2{
+    color: var(--white);
+}
+
+#choose-us h2 {
     margin-top: 20px;
 }
 
-#choose-us i{
+#choose-us i {
     color: var(--white);
     font-size: 150%;
 }
@@ -287,15 +288,14 @@ header a {
 
 
 /* Gallery */
-
-#gallery{
+#gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
 }
 
-.top-text{
+.top-text {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -304,35 +304,32 @@ header a {
     margin: 50px;
 }
 
-#gallery img{
-    width:  325px;
+#gallery img {
+    width: 325px;
     height: 400px;
     border-radius: 20% 0%;
     justify-content: center;
     object-fit: cover;
-    margin:20px
+    margin: 20px
 }
 
 /*Contact us*/
-
 .contact-section {
     background: url('../images/contact-background.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
     display: flex;
-
-    
 }
 
 .form {
     color: var(--white);
     font-size: 105%;
-    background-color:rgba(7, 64, 96, 0.9);
+    background-color: rgba(7, 64, 96, 0.9);
     max-width: 400px;
     padding: 30px;
     margin: 10px;
-    border-radius: 20% 0; 
+    border-radius: 20% 0;
 }
 
 .form>h2 {
@@ -343,7 +340,7 @@ header a {
 
 .text-form {
     color: black;
-    font-family: Lora, sans-serif;;
+    font-family: Lora, sans-serif;
     font-size: 105%;
     background-color: rgb(255, 244, 244);
     padding: 1%;
@@ -352,7 +349,8 @@ header a {
 
 .text-form-white {
     color: white;
-    font-family: Lora, sans-serif;;
+    font-family: Lora, sans-serif;
+    ;
     font-size: 105%;
     padding: 1%;
 }
@@ -369,18 +367,14 @@ header a {
     transition: background-color 0.5s ease-in-out;
 }
 
-
-
-.text-input:hover {  
+.text-input:hover {
     border: 2px solid white;
 }
 
-
-.text-input:focus {  
+.text-input:focus {
     outline: none;
     background-color: var(--text-secondary);
 }
-
 
 .send-button {
     margin-top: 20px;
@@ -398,12 +392,11 @@ header a {
 .send-button:hover {
     background-color: #fafafa;
     color: var(--text-primary);
-    
+
 }
 
 
 /* footer */
-
 footer {
     margin-top: 20px;
     height: 150px;
@@ -415,23 +408,23 @@ footer {
     align-items: center;
 }
 
-footer p{
+footer p {
     font-size: 75%;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .icon-zoom-effect i:hover {
-    color:var(--text-secondary);
+    color: var(--text-secondary);
     font-weight: bold;
- }
+}
 
 .social-networks {
     font-size: 130%;
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline-block;
     margin: 20px;
 }
@@ -475,20 +468,21 @@ footer p{
 
     #menu li {
         margin: 5px 0 5px 0;
-        
     }
 
     #menu a {
-        margin:0;
+        margin: 0;
     }
-    #choose-us-content, #about-us .content {
+
+    #choose-us-content,
+    #about-us .content {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: fit-content;
     }
 
-    #choose-us-content div{
+    #choose-us-content div {
         padding: 40px 20px;
     }
 
@@ -498,8 +492,6 @@ footer p{
         margin-bottom: 20px;
     }
 
-
-    
     #menu a {
         text-decoration: none;
         color: inherit;
@@ -527,36 +519,35 @@ footer p{
     }
 
 
-    .card-about-us, .card-packages{
+    .card-about-us,
+    .card-packages {
         margin: 20px;
         width: 80%;
         height: auto;
     }
 
-    .card-packages p{    
+    .card-packages p {
         width: 50%;
     }
 
-
-    
-  }
-
-  /* On screens that are 330px or less*/
-  @media screen and (max-width: 330px) {
-    .form {
-        max-width: 250px;
-        margin: 5px;
+    #gallery {
+        margin: 10px;
     }
 
-    nav {
-        font-size: 90%;
+    /* On screens that are 330px or less*/
+    @media screen and (max-width: 330px) {
+        .form {
+            max-width: 250px;
+            margin: 5px;
+        }
+
+        nav {
+            font-size: 90%;
+        }
+
+        .card {
+            margin: 0;
+        }
+
     }
-
-    .card {
-        margin: 0;
-    }
-
-    
-
 }
-
