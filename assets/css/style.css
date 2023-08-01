@@ -162,14 +162,12 @@ header a {
 
 #about-us h2 {
     margin-top: 40px;
-    color: var(--text-primary);
 }
 
 #about-us h3 {
     margin-top: 20px;
     padding: 20px;
 }
-
 
 #about-us .content {
     display: flex;
@@ -253,13 +251,15 @@ header a {
     margin-bottom: 20px;
 }
 
+
+/* why choose us */
+
 #choose-us {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* why choose us */
 #choose-us-content {
     background-image: url("../images/choose-us2.jpg");
     background-size: cover;
@@ -274,18 +274,12 @@ header a {
     justify-content: space-around;
 }
 
-#choose-us-content h2 {
-    color: var(--white);
+#choose-us-content i {
+    color: var(--white);    
+    font-size: 200%;
+    padding: 20px;
 }
 
-#choose-us h2 {
-    margin-top: 20px;
-}
-
-#choose-us i {
-    color: var(--white);
-    font-size: 150%;
-}
 
 #choose-us-content div {
     color: var(--white);
@@ -295,6 +289,7 @@ header a {
 
 
 /* Gallery */
+
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -307,12 +302,7 @@ header a {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    font-size: 120%;
-    margin: 50px;
-}
-
-.top-text h3{
-    font-size: 160%;
+    margin: 40px;
 }
 
 #gallery img {
@@ -402,7 +392,6 @@ header a {
 .send-button:hover {
     background-color: #fafafa;
     color: var(--text-primary);
-
 }
 
 
