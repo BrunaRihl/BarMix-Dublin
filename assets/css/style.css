@@ -149,7 +149,7 @@ header a {
 }
 
 /* about us */
-#about-us {
+.section-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,16 +160,16 @@ header a {
     color: var(--text-primary);
 }
 
-#about-us h2 {
+.section-card h2 {
     margin-top: 40px;
 }
 
-#about-us h3 {
+.section-card h3 {
     margin-top: 20px;
     padding: 20px;
 }
 
-#about-us .content {
+.section-card .content {
     display: flex;
     flex-direction: row;
 }
@@ -275,7 +275,7 @@ header a {
 }
 
 #choose-us-content i {
-    color: var(--white);    
+    color: var(--white);
     font-size: 200%;
     padding: 20px;
 }
@@ -435,7 +435,7 @@ footer p {
     color: var(--text-primary)
 }
 
-/* On screens that are 600px or less */
+/* On screens that are 860px or less */
 @media screen and (max-width: 860px) {
 
     header {
@@ -474,7 +474,7 @@ footer p {
     }
 
     #choose-us-content,
-    #about-us .content {
+    .section-card .content {
         display: flex;
         flex-direction: column;
         width: 100%;
