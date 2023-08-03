@@ -46,17 +46,20 @@ Barmix is a fictional team of bartenders that I created. The Barmix website is a
 
 ### Color palette
 
-![Barmix website colour palette](/assets/images/colors-palette.jpg)  
 I was primarily inspired by the vibrant blue color of the cocktail in the hero image when choosing the color palette for the website.  
-The chosen color palette combines soft tones of white, light gray, and shades of blue, creating a sense of elegance and professionalism for the website. Additionally, the use of soft colors in contrast with darker ones helped create a pleasant visual experience and facilitated reading and navigation on the website.
+
+The chosen color palette combines soft tones of white, light gray, and shades of blue, creating a sense of elegance and professionalism for the website. Additionally, the use of soft colors in contrast with darker ones helped create a pleasant visual experience and facilitated reading and navigation on the website.  
+
+![Barmix website colour palette](/assets/images/colors-palette.jpg)  
 
 ### Typography 
 
 Google Fonts was utilized to incorporate the selected font styles into the website. 
 
-The font "Lora" was chosen for most of the text used on the website, a versatile and legible serif font, ideal for long texts. On the other hand, the font "Cinzel Decorative" was used for headings and highlights as it is a more ornate and impactful display font. 
-![Barmix fonts choosen Cinzel Decorative](/assets/images/cinzel-decorative.jpg)  
-![Barmix fonts choosen Lora](/assets/images/Lora.jpg)  
+The font "Lora" was chosen for most of the text used on the website, a versatile and legible serif font, ideal for long texts. On the other hand, the font "Cinzel Decorative" was used for headings and highlights as it is a more ornate and impactful display font.  
+
+![Barmix fonts choosen Lora and Cinzel Decorative](/assets/images/fonts.jpg)  
+
 
 ### Imagery 
 
@@ -76,7 +79,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 * At the top left, there is the "BarMix" logo, which, when clicked, takes the user back to the home page.  
 * On the top right, there is the menu with links to the pages of the site - Home, Services, Gallery, and Contact Us.  
 * To ensure that the menu items are aligned on smaller screens such as tablets and smartphones, adjustments were made in media queries to center them below the logo.  
-* To facilitate the user's understanding of their location on the website, a border effect was added when the mouse cursor hovers over the menu items and when the page is open, the name of the page remains in bold. 
+* To facilitate the user's understanding of their location on the website, a border effect was added when the mouse cursor hovers over the menu items and when the page is open, the name of the page remains in bold.  
 
 ![Barmix nav bar](/assets/images/nav.jpg)
 
@@ -85,9 +88,9 @@ The website consists of four pages: a welcoming home page, a detailed services p
 ##### Header: 
 
 * The chosen hero image showcases a skillful bartender crafting a cocktail. The selected photo boasts excellent resolution and vibrant colors, which helps grab visitors' attention right from the start. 
-* Additionally, I added an unblur and zoom out effect to create an element of surprise and curiosity and a text overlay to reinforce the main idea of the website to users. 
- 
- ![Barmix header - image hero](/assets/images/hero.jpg)
+* Additionally, I added an unblur and zoom out effect to create an element of surprise and curiosity and a text overlay to reinforce the main idea of the website to users.  
+
+![Barmix header - image hero](/assets/images/hero.jpg)
 
 ##### Sections: 
 
@@ -95,7 +98,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 
   * The "About Us" section highlights the team of bartenders and provides a brief overview of the services offered, with the option to click on the "Services" text for more information. It also outlines the advantages of hiring this service. 
 
-  * The "Why Choose Us" section is showcased with a background image of bottles, featuring icons that highlight the key strengths of "Barmix" bartenders. 
+  * The "Why Choose Us" section is showcased with a background image of bottles, featuring icons that highlight the key strengths of "Barmix" bartenders.  
 
 ![Barmix about us and why choose us section](/assets/images/about-choose.jpg)
 
@@ -104,7 +107,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 
 * The "Services" page contains detailed information about the services offered by the group of bartenders, including private event bartending, mobile mixology, and workshops. 
 
-* It also showcases the types of packages offered for different event types, empowering clients to make well-suited choices according to their specific requirements. 
+* It also showcases the types of packages offered for different event types, empowering clients to make well-suited choices according to their specific requirements.  
 
 ![Barmix services page](/assets/images/services.jpg)
 ![Barmix packages - services page](/assets/images/packages.jpg)
@@ -121,7 +124,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 #### Contact us: 
 
 * The contact page features a comprehensive contact form, requesting the user's name and email, along with details about the type of service they are seeking and the scheduled event date. 
-* Additionally, there is a space for the user to leave their message, with a pre-written text providing guidance on the key information they should provide. This ensures that the user has a streamlined experience and knows exactly what is required to submit their message efficiently. 
+* Additionally, there is a space for the user to leave their message, with a pre-written text providing guidance on the key information they should provide. This ensures that the user has a streamlined experience and knows exactly what is required to submit their message efficiently.  
 
 ![Barmix contact us page](/assets/images/contact.jpg)
 
@@ -132,7 +135,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 
 * The social media icons have been included, allowing users to access the community's social platforms and stay connected and updated.  
 
-* Clicking on these icons will open the links in new tabs for ease of navigation.
+* Clicking on these icons will open the links in new tabs for ease of navigation.  
 
 ![Barmix footer](/assets/images/footer.jpg)
 
@@ -146,7 +149,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
   * Google Chrome; 
 
   * Microsoft Edge; 
-
+ 
   * Safari; 
 
   * Mozilla Firefox.
@@ -205,3 +208,34 @@ The website consists of four pages: a welcoming home page, a detailed services p
 | Icon -hover | When hovering over the footer icons, it should have a transition effect and remain in a light blue color and bold to indicate action.| Hover over footer | Icons turn bold and light blue with transition. | Pass |
 | Icon-clicked | Clicking on social network icons in the footer opens new windows directing users to the respective social networks.| Clicked social networks Icons | Opens the pages in a new window. | Pass |
 
+## Technologies Used
+### Languages Used
+Html and CSS
+
+### Frameworks, Libraries & Programs Used
+
+[Balsamiq](https://balsamiq.com/): Employed to create wireframes, which are visual representations of the website's layout and design. 
+
+[Google Fonts](https://fonts.google.com/): Imported to integrate font styles into the website. 
+
+[Font Awesome](https://fontawesome.com/): Incorporated to easily incorporate icons throughout the website. 
+
+Google Dev Tools: Leveraged for debugging and testing features, as well as resolving issues related to responsiveness and styling. 
+
+[Adobe Express](https://www.adobe.com/br/express/feature/image/resize): Utilized for image manipulation and resizing.
+
+[The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): Employed to validate the correctness and compliance of CSS code. 
+
+[The W3C Markup Validation Service](https://validator.w3.org/): Used to validate the accuracy and validity of HTML code. 
+
+Paint: Used to edit the images in the Read Me. 
+
+[Coolors](https://coolors.co/f08080-f4978e-f8ad9d-fbc4ab-ffdab9): Utilized to create the color palette. 
+
+[Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/): used to source high-quality images for the website. 
+
+[Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): used as a resource for implementing flexible and responsive layouts on the website. 
+
+[GitHub](https://github.com/): Used to save and store the website files. 
+
+[Am I Responsive?](https://ui.dev/amiresponsive): Utilized to view the website's appearance and responsiveness across a range of devices. 
