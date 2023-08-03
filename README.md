@@ -9,14 +9,51 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
 
 ....
 
+
+
+### User Experience (UX) 
+
+* Website overview 
+
+Barmix is a fictional team of bartenders that I created. The Barmix website is a functional platform that connects professional bartenders to clients seeking bar services for events and workshops. As it is not a physical establishment, the site highlights the services and offerings of qualified bartenders who are hired to cater to various locations, such as parties, celebrations, fairs, corporate events, and workshops. 
+
+* User base: 
+
+  * People seeking bartender services residents of Dublin or planning events in Dublin. 
+
+  * Event Planners: Businesses and individuals organizing corporate events, private parties, and other gatherings, seeking professional bartenders to create memorable experiences and serve high-quality cocktails. 
+
+  * Workshop Coordinators: Organizers of workshops and training sessions interested in hiring bartenders to conduct practical mixology classes. 
+
+  * Mixology Enthusiasts: Individuals who have a passion for cocktails and mixology, in search of experienced bartenders to provide services for private events or skill-enhancement workshops. 
+
+ 
+* Website Goals: 
+
+  * Allow customers to view the services offered by the group of bartenders, including catering for private events, mobile mixology, and workshops. 
+
+  * Facilitate the process of hiring professional bartenders for events, workshops, and mobile mixology through the website. 
+
+  * Present personalized drink packages for different types of events, enabling customers to make appropriate choices according to their needs. 
+
+  * Create a photo gallery showcasing the bartenders' work at previous events, reinforcing their experience and skills. 
+
+  * Provide information about available mixology workshops to attract individuals interested in enhancing their skills in the field. 
+
+  * Offer a contact form for customers to submit inquiries, request quotes, and obtain more information about the services provided. 
+
+  * Promote the "Barmix" brand as a reliable and professional option for bartending services in Dublin, building a solid reputation in the events and workshops market. 
+
 ## Design
 
 ### Color palette
-![Barmix website colour palette](/assets/images/colors-palette.jpg)
-The chosen color palette combines soft tones of white, light gray, and shades of blue, creating a sense of elegance and professionalism for the website. These color choices were made to convey an atmosphere of seriousness and trust, which are important aspects for the service offered. Additionally, the use of soft colors in contrast with darker ones helped create a pleasant visual experience and facilitated reading and navigation on the site.
+I was primarily inspired by the vibrant blue color of the cocktail in the hero image when choosing the color palette for the website.  
+The chosen color palette combines soft tones of white, light gray, and shades of blue, creating a sense of elegance and professionalism for the website. Additionally, the use of soft colors in contrast with darker ones helped create a pleasant visual experience and facilitated reading and navigation on the website.
+![Barmix website colour palette](/assets/images/colors-palette.jpg)  
+
+
 
 ## Full Testing 
- 
 
 ### Tested Browsers and Devices: 
 
@@ -28,7 +65,7 @@ The chosen color palette combines soft tones of white, light gray, and shades of
 
   * Safari; 
 
-  * Mozilla Firefox. 
+  * Mozilla Firefox.
 
 
 * Mobile Devices: 
@@ -42,16 +79,16 @@ The chosen color palette combines soft tones of white, light gray, and shades of
 
 * Tablet: 
 
-  * Ipad Air. 
+  * Ipad Air 4, 10.9-inch screen. 
 
   * Nest Hub. (Google Chrome Inspector) 
 
  
 * Laptop: 
 
-  * Macbook Air 13-inch screen.
+  * Macbook Air, 13-inch screen.
 
-  * Asus TUF F15 15.6-inch screen. 
+  * Asus TUF F15, 15.6-inch screen. 
 
 ### Testing
 
