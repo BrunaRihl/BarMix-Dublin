@@ -7,7 +7,40 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
 
 ## Contents
 
-....
+[User Experience](#user-experience)
+  * [Website Overview](#user-stories)
+  * [User base](#user-stories)
+  * [Website Goals](#user-stories)
+
+
+* [Design](#design)
+  * [Colour Palette](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)  
+    
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Features and resources to be added in the future](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Testing](#testing)
+  * [Tested Browsers and Devices](#deployment)
+  * [Manual Testing](#local-development)
+  * [Validator Testing](#deployment)
+  * [Bugs](#local-development)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+
+* [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
 
 ### User Experience (UX) 
 
@@ -69,11 +102,11 @@ The selected images for the website aim to showcase the professional and engagin
 
 ...
 
-### Features
+## Features
 
 The website consists of four pages: a welcoming home page, a detailed services page, a gallery, and a contact us page. 
 
-#### Navigation bar 
+### Navigation bar 
 
 * All pages have a responsive navigation bar at the top.  
 * At the top left, there is the "BarMix" logo, which, when clicked, takes the user back to the home page.  
@@ -83,16 +116,16 @@ The website consists of four pages: a welcoming home page, a detailed services p
 
 ![Barmix nav bar](/assets/images/nav.jpg)
 
-#### Home Page 
+### Home Page 
 
-##### Header: 
+#### Header: 
 
 * The chosen hero image showcases a skillful bartender crafting a cocktail. The selected photo boasts excellent resolution and vibrant colors, which helps grab visitors' attention right from the start. 
 * Additionally, I added an unblur and zoom out effect to create an element of surprise and curiosity and a text overlay to reinforce the main idea of the website to users.  
 
 ![Barmix header - image hero](/assets/images/hero.jpg)
 
-##### Sections: 
+#### Sections: 
 
 * Below the hero image, users will find the sections "About Us" and "Why Choose Us." 
 
@@ -103,7 +136,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 ![Barmix about us and why choose us section](/assets/images/about-choose.jpg)
 
 
-#### Services: 
+### Services: 
 
 * The "Services" page contains detailed information about the services offered by the group of bartenders, including private event bartending, mobile mixology, and workshops. 
 
@@ -112,7 +145,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 ![Barmix services page](/assets/images/services.jpg)
 ![Barmix packages - services page](/assets/images/packages.jpg)
 
-#### Gallery:
+### Gallery:
 
 * The gallery page was created with the intention of showcasing the best photos captured at previous events.
 
@@ -121,7 +154,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 ![Barmix gallery page](/assets/images/gallery.jpg)
 
  
-#### Contact us: 
+### Contact us: 
 
 * The contact page features a comprehensive contact form, requesting the user's name and email, along with details about the type of service they are seeking and the scheduled event date. 
 * Additionally, there is a space for the user to leave their message, with a pre-written text providing guidance on the key information they should provide. This ensures that the user has a streamlined experience and knows exactly what is required to submit their message efficiently.  
@@ -129,7 +162,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 ![Barmix contact us page](/assets/images/contact.jpg)
 
 
-#### The footer: 
+### The footer: 
 
 * All pages of the website have a footer at the bottom of the page. 
 
@@ -283,8 +316,6 @@ Paint: Used to edit the images in the Read Me.
 
 [The W3C Markup Validation Service](https://validator.w3.org/): Used to validate the accuracy and validity of HTML code. 
 
-[Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): used as a resource for implementing flexible and responsive layouts on the website. 
-
 [GitHub](https://github.com/): Used to save and store the website files. 
 
 [Am I Responsive?](https://ui.dev/amiresponsive): Utilized to view the website's appearance and responsiveness across a range of devices.  
@@ -304,6 +335,15 @@ Paint: Used to edit the images in the Read Me.
 You can access the live website by clicking [here](https://brunarihl.github.io/BarMix-Dublin/index.html).
 
 ## Credits
+
+### Content
+
+* The foundation of the website's code/design was established using the CI Love Running project as a starting point.
+
+* [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): used as a resource for implementing flexible and responsive layouts on the website. 
+
+* To write the README file, I followed the structure and table format of the testing section from the readme-examples repository by Kera Cudmore.
+
 
 ### Media
 
