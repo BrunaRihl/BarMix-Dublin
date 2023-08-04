@@ -145,6 +145,21 @@ The website consists of four pages: a welcoming home page, a detailed services p
 * Create a page with weekly updated cocktail recipe ideas, providing users with a reason to revisit the website regularly;  
 * Implement an online service booking system, streamlining the contract process with integrated scheduling and payment tools.
 
+### Accessibility  
+
+Right from the beginning of the project, the website's design was carefully crafted with accessibility in mind. Particular attention was paid to ensuring sufficient color contrast, clear header structure, consistent navigation throughout the site, employing semantic HTML and incorporating descriptive "alt" attributes for images on the website.
+
+#### LightHouse  
+The accessibility, performance, best practices, and SEO (Search Engine Optimization) of the website were analyzed using the LightHouse tool available in Google Chrome's DevTools.  
+  * Index  
+![LightHouse - Index](/assets/images/Home%20-%20LH.jpg)  
+  * Services  
+![LightHouse - Services](/assets/images/Services%20-%20LH.jpg)  
+  * Gallery  
+![LightHouse - Gallery](/assets/images/Gallery%20-%20LH.jpg)  
+  * Contact Us  
+![LightHouse - Contact Us](/assets/images/Contact%20-%20LH.jpg)  
+
 
 ## Full Testing 
 
