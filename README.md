@@ -42,7 +42,7 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
   * [Acknowledgments](#acknowledgments)
 
 
-### User Experience (UX) 
+## User Experience (UX) 
 
 * Website overview 
 
@@ -308,9 +308,9 @@ Google Dev Tools: Leveraged for debugging and testing features, as well as resol
 
 Visual Studio Code (VS Code): Utilized as a source code editor.
 
-Paint: Used to edit the images in the Read Me. 
-
 [Adobe Express](https://www.adobe.com/br/express/feature/image/resize): Utilized for image manipulation and resizing.
+
+Paint: Used to edit the images in the Read Me. 
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): Employed to validate the correctness and compliance of CSS code. 
 
@@ -361,5 +361,8 @@ I want to express my gratitude to the individuals who provided assistance and su
 
  *  to my husband for his unwavering support and patience during my study period. 
 
- *
+ * to Laura Mayock, Cohort Facilitator from Code Institute, for always guiding our studies in the best possible way and or always being willing to help with any issue.
+
+ 
+
 
