@@ -262,6 +262,8 @@ Html and CSS
 
 Google Dev Tools: Leveraged for debugging and testing features, as well as resolving issues related to responsiveness and styling. 
 
+Visual Studio Code (VS Code): Utilized as a source code editor.
+
 [Adobe Express](https://www.adobe.com/br/express/feature/image/resize): Utilized for image manipulation and resizing.
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): Employed to validate the correctness and compliance of CSS code. 
@@ -279,3 +281,16 @@ Paint: Used to edit the images in the Read Me.
 [GitHub](https://github.com/): Used to save and store the website files. 
 
 [Am I Responsive?](https://ui.dev/amiresponsive): Utilized to view the website's appearance and responsiveness across a range of devices. 
+## Deployment  
+
+* Go to the main page of your GitHub repository and click on the "Settings" button.
+
+* In the left-hand side menu, navigate to the "Code and automation" section and select "Pages."
+
+* In the build and deployment area, choose "Deploy from a branch" and select the "main" branch and the root directory ("/").
+
+* Click on the "Save" button to confirm the settings.
+
+* It may take a few minutes for the website to be displayed on GitHub Pages.
+
+You can access the live website by clicking [here](https://brunarihl.github.io/BarMix-Dublin/index.html).
