@@ -1,6 +1,6 @@
 # BarMix
 The Barmix website is a platform that provides services of professional bartenders who cater to events, parties and workshops in Dublin.
-![Barmix website shown on a range of devices](/assets/images/Responsive-screens.jpg)
+![Barmix website shown on a range of devices](/assets/images/responsive-screens.jpg)
 
 ## Demo
 The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/index.html)!
@@ -8,33 +8,33 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
 ## Contents
 
 * [User Experience](#user-experience)
-  * [Website Overview](#user-stories)
-  * [User base](#user-stories)
-  * [Website Goals](#user-stories)
+  * [Website Overview](#website-overview)
+  * [User base](#user-base)
+  * [Website Goals](#website-goals)
 
 
 * [Design](#design)
-  * [Colour Palette](#colour-scheme)
+  * [Color Palette](#color-palette)
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)  
     
 * [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Features and resources to be added in the future](#future-implementations)
+  * [General Features on Each Page](#features)
+  * [Features and resources to be added in the future](#features-and-resources-to-be-added-in-the-future)
   * [Accessibility](#accessibility)
 
 * [Testing](#testing)
-  * [Tested Browsers and Devices](#deployment)
-  * [Manual Testing](#local-development)
-  * [Validator Testing](#deployment)
-  * [Bugs](#local-development)
+  * [Tested Browsers and Devices](#tested-browsers-and-devices)
+  * [Manual Testing](#manual-testing)
+  * [Validator Testing](#validator-testing)
+  * [Bugs](#bugs)
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment--local-development)
+* [Deployment](#deployment)
 
 * [Credits](#credits)
   * [Content](#content)
@@ -46,7 +46,7 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
 
 ### Website overview 
 
-Barmix is a fictional team of bartenders that I created. The Barmix website is a functional platform that connects professional bartenders to clients seeking bar services for events and workshops. As it is not a physical establishment, the site highlights the services and offerings of qualified bartenders who are hired to cater to various locations, such as parties, celebrations, fairs, corporate events, and workshops. 
+Barmix is a fictional team of bartenders that I created. The Barmix website is a functional platform that connects professional bartenders to clients seeking bar services for events and workshops. As it is not a physical establishment, the site highlights the services and offerings of qualified bartenders who are hired to cater to various locations in Dublin, such as parties, celebrations, fairs, corporate events, and workshops. 
 
 ### User base  
 
@@ -83,7 +83,7 @@ I was primarily inspired by the vibrant blue color of the cocktail in the hero i
 
 The chosen color palette combines soft tones of white, light gray, and shades of blue, creating a sense of elegance and professionalism for the website. Additionally, the use of soft colors in contrast with darker ones helped create a pleasant visual experience and facilitated reading and navigation on the website.  
 
-![Barmix website colour palette](/assets/images/colors-palette.jpg)  
+![Barmix website color palette](/assets/images/colors-palette.jpg)  
 
 ### Typography 
 
@@ -185,13 +185,13 @@ Right from the beginning of the project, the website's design was carefully craf
 #### LightHouse  
 The accessibility, performance, best practices, and SEO (Search Engine Optimization) of the website were analyzed using the LightHouse tool available in Google Chrome's DevTools.  
   * Index  
-![LightHouse - Index](/assets/images/Home%20-%20LH.jpg)  
+![LightHouse - Index](/assets/images/home-lh.jpg)  
   * Services  
-![LightHouse - Services](/assets/images/Services%20-%20LH.jpg)  
+![LightHouse - Services](/assets/images/services-lh.jpg)  
   * Gallery  
-![LightHouse - Gallery](/assets/images/Gallery%20-%20LH.jpg)  
+![LightHouse - Gallery](/assets/images/gallery-lh.jpg)  
   * Contact Us  
-![LightHouse - Contact Us](/assets/images/Contact%20-%20LH.jpg)  
+![LightHouse - Contact Us](/assets/images/contact-lh.jpg)  
 
 
 ## Testing 
@@ -267,13 +267,13 @@ The accessibility, performance, best practices, and SEO (Search Engine Optimizat
 * HTML:  
 No errors were found during the validation process using the official W3C validator.  
   * Index  
-![W3C validator - Index](/assets/images/Index-Checker%20.jpg)  
+![W3C validator - Index](/assets/images/index-checker.jpg)  
   * Services  
-![W3C validator - Services](/assets/images/Services-Checker%20.jpg)  
+![W3C validator - Services](/assets/images/services-checker.jpg)  
   * Gallery  
-![W3C validator - Gallery](/assets/images/Gallery-Checker%20.jpg)  
+![W3C validator - Gallery](/assets/images/gallery-checker.jpg)  
   * Contact Us  
-![W3C validator - Contact Us](/assets/images/Contact-Checker%20.jpg)  
+![W3C validator - Contact Us](/assets/images/contact-checker.jpg)  
 
 * CSS:  
 No errors were found during the validation process using the official Jigsaw validator.  
