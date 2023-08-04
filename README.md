@@ -36,6 +36,7 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
 * [Deployment](#deployment)
 
 * [Credits](#credits)
+  * [Code](#code)
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
@@ -338,15 +339,13 @@ You can access the live website by clicking [here](https://brunarihl.github.io/B
 
 * [Smashing Magazine](https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/): I used this reference to manage how background images adjust within their container.  
 
-### Content
-
-* I created all the content on the website.
+* [ReadMe Example](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md): To write the ReadMe file, I followed the structure and table format (testing section) from the readme-examples repository by Kera Cudmore.
 
 * The foundation of the website's code/design was established using the CI Love Running project as a starting point.
 
+### Content
 
-* [ReadMe Example](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md): To write the ReadMe file, I followed the structure and table format (testing section) from the readme-examples repository by Kera Cudmore.
-
+* I created all the content on the website.
 
 ### Media
 
