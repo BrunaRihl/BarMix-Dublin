@@ -17,7 +17,6 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
   * [Color Palette](#color-palette)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Wireframes](#wireframes)  
     
 * [Features](#features)
   * [General Features on Each Page](#features)
@@ -98,9 +97,6 @@ The font "Lora" was chosen for most of the text used on the website, a versatile
 
 The selected images for the website aim to showcase the professional and engaging work of bartenders at events and workshops. The chosen photographs portray cocktails being crafted, skilled mixologists in action, and images that align with the services offered on the site, all with the purpose of inspiring confidence in potential clients. 
 
-### Wireframes 
-
-...
 
 ## Features
 
@@ -298,11 +294,9 @@ Html and CSS
 
 ### Frameworks, Libraries & Programs Used
 
-[Balsamiq](https://balsamiq.com/): Employed to create wireframes, which are visual representations of the website's layout and design. 
-
 [Google Fonts](https://fonts.google.com/): Imported to integrate font styles into the website. 
 
-[Font Awesome](https://fontawesome.com/): Incorporated to easily incorporate icons throughout the website. 
+[Font Awesome](https://fontawesome.com/): Incorporated to easily add icons across the website.
 
 Google Dev Tools: Leveraged for debugging and testing features, as well as resolving issues related to responsiveness and styling. 
 
@@ -310,7 +304,7 @@ Visual Studio Code (VS Code): Utilized as a source code editor.
 
 [Adobe Express](https://www.adobe.com/br/express/feature/image/resize): Utilized for image manipulation and resizing.
 
-Paint: Used to edit the images in the Read Me. 
+Paint: Used to edit the images in the ReadMe. 
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): Employed to validate the correctness and compliance of CSS code. 
 
@@ -336,13 +330,22 @@ You can access the live website by clicking [here](https://brunarihl.github.io/B
 
 ## Credits
 
-### Content
-
-* The foundation of the website's code/design was established using the CI Love Running project as a starting point.
+### Code
 
 * [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): used as a resource for implementing flexible and responsive layouts on the website. 
 
-* To write the README file, I followed the structure and table format of the testing section from the readme-examples repository by Kera Cudmore.
+* [CSSDECK](https://cssdeck.com/blog/implement-a-blur-or-filter-effect-on-an-image-using-css3/): I used this reference to implement the 'unblur' transition effect on the hero image of the website.
+
+* [Smashing Magazine](https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/): I used this reference to manage how background images adjust within their container.  
+
+### Content
+
+* I created all the content on the website.
+
+* The foundation of the website's code/design was established using the CI Love Running project as a starting point.
+
+
+* [ReadMe Example](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md): To write the ReadMe file, I followed the structure and table format (testing section) from the readme-examples repository by Kera Cudmore.
 
 
 ### Media
@@ -355,13 +358,13 @@ You can access the live website by clicking [here](https://brunarihl.github.io/B
 
 I want to express my gratitude to the individuals who provided assistance and support throughout the process of completing this project:
 
- * to my mentor, Jubril Akolade, for his valuable feedback, for patiently addressing all my doubts, and for always being available and willing to help.
+ * to my mentor, Jubril Akolade, for his valuable feedback, for patiently addressing all my doubts, and for always being available and willing to help;
 
- * to my friends Ivan Frezza and Bruna Andrelieri helped me by clarifying some doubts regarding my codes.
+ * to Laura Mayock, Cohort Facilitator from Code Institute, for always guiding our studies in the best possible way and always being willing to help with any issue.
 
- *  to my husband Jasser for his unwavering support and patience during my study period. 
+ * to my friends Ivan Frezza and Bruna Andelieri, who helped me by clarifying some doubts regarding my codes;
 
- * to Laura Mayock, Cohort Facilitator from Code Institute, for always guiding our studies in the best possible way and or always being willing to help with any issue.
+ *  to my husband Jasser for his unwavering support and patience during my study period; 
 
 
 
