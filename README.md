@@ -7,7 +7,7 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
 
 ## Contents
 
-[User Experience](#user-experience)
+* [User Experience](#user-experience)
   * [Website Overview](#user-stories)
   * [User base](#user-stories)
   * [Website Goals](#user-stories)
@@ -359,10 +359,10 @@ I want to express my gratitude to the individuals who provided assistance and su
 
  * to my friends Ivan Frezza and Bruna Andrelieri helped me by clarifying some doubts regarding my codes.
 
- *  to my husband for his unwavering support and patience during my study period. 
+ *  to my husband Jasser for his unwavering support and patience during my study period. 
 
  * to Laura Mayock, Cohort Facilitator from Code Institute, for always guiding our studies in the best possible way and or always being willing to help with any issue.
 
- 
+
 
 
