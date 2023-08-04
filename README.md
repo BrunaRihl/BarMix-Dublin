@@ -146,7 +146,7 @@ The website consists of four pages: a welcoming home page, a detailed services p
 
 * Web Browsers: 
 
-  * Google Chrome; 
+  * Google Chrome;
 
   * Microsoft Edge; 
  
@@ -157,23 +157,23 @@ The website consists of four pages: a welcoming home page, a detailed services p
 
 * Mobile Devices: 
 
-  * iPhone Xr.
+  * iPhone Xr;
 
-  * iPhone 12 Pro. (Google Chrome Inspector) 
+  * iPhone 12 Pro; (Google Chrome Inspector) 
 
   * Samsung Galaxy S20 Ultra. (Google Chrome Inspector) 
 
 
 * Tablet: 
 
-  * Ipad Air 4, 10.9-inch screen. 
+  * Ipad Air 4, 10.9-inch screen;
 
   * Nest Hub. (Google Chrome Inspector) 
 
  
 * Laptop: 
 
-  * Macbook Air, 13-inch screen.
+  * Macbook Air, 13-inch screen;
 
   * Asus TUF F15, 15.6-inch screen. 
 
@@ -207,6 +207,25 @@ The website consists of four pages: a welcoming home page, a detailed services p
 |  |  |  |  |  |
 | Icon -hover | When hovering over the footer icons, it should have a transition effect and remain in a light blue color and bold to indicate action.| Hover over footer | Icons turn bold and light blue with transition. | Pass |
 | Icon-clicked | Clicking on social network icons in the footer opens new windows directing users to the respective social networks.| Clicked social networks Icons | Opens the pages in a new window. | Pass |
+
+### Validator Testing  
+
+* HTML:  
+No errors were found during the validation process using the official W3C validator.  
+  * Index  
+![W3C validator - Index](/assets/images/Index-Checker%20.jpg)  
+  * Services  
+![W3C validator - Services](/assets/images/Services-Checker%20.jpg)  
+  * Gallery  
+![W3C validator - Gallery](/assets/images/Gallery-Checker%20.jpg)  
+  * Contact Us  
+![W3C validator - Contact Us](/assets/images/Contact-Checker%20.jpg)  
+
+* CSS:  
+No errors were found during the validation process using the official Jigsaw validator.  
+![Jigsaw validator - Css](/assets/images/css-validation.jpg)  
+
+
 
 ## Technologies Used
 ### Languages Used
