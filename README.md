@@ -44,11 +44,11 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
 
 ## User Experience (UX) 
 
-* Website overview 
+### Website overview 
 
 Barmix is a fictional team of bartenders that I created. The Barmix website is a functional platform that connects professional bartenders to clients seeking bar services for events and workshops. As it is not a physical establishment, the site highlights the services and offerings of qualified bartenders who are hired to cater to various locations, such as parties, celebrations, fairs, corporate events, and workshops. 
 
-* User base: 
+### User base  
 
   * People seeking bartender services residents of Dublin or planning events in Dublin. 
 
@@ -59,7 +59,7 @@ Barmix is a fictional team of bartenders that I created. The Barmix website is a
   * Mixology Enthusiasts: Individuals who have a passion for cocktails and mixology, in search of experienced bartenders to provide services for private events or skill-enhancement workshops. 
 
  
-* Website Goals: 
+### Website Goals  
 
   * Allow customers to view the services offered by the group of bartenders, including catering for private events, mobile mixology, and workshops. 
 
