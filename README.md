@@ -161,7 +161,7 @@ The accessibility, performance, best practices, and SEO (Search Engine Optimizat
 ![LightHouse - Contact Us](/assets/images/Contact%20-%20LH.jpg)  
 
 
-## Full Testing 
+## Testing 
 
 ### Tested Browsers and Devices: 
 
@@ -198,7 +198,7 @@ The accessibility, performance, best practices, and SEO (Search Engine Optimizat
 
   * Asus TUF F15, 15.6-inch screen. 
 
-### Testing
+### Manual Testing
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -246,6 +246,17 @@ No errors were found during the validation process using the official W3C valida
 No errors were found during the validation process using the official Jigsaw validator.  
 ![Jigsaw validator - Css](/assets/images/css-validation.jpg)  
 
+### Bugs
+
+#### Solved Bugs
+
+*  I started the project using Love Running as the template structure for my website, where I used float to position the content on the page. However, when developing the services section, I encountered difficulties as the contents started to overlap. As a solution, I decided to restart the code using the Flexbox layout model. I also redesigned the navigation bar and footer to maintain consistency, making it easier to build responsive pages.
+
+* During one of my sessions with my mentor, Jubril, he noticed that the services page and the form were not adapting ideally to small mobile screens. To address this, he suggested removing elements one by one from the code using Google DevTools to pinpoint the issue. Upon identifying the problem, I adjusted the margins, padding, and max-width within the media queries, successfully resolving the issue.
+
+#### Unsolved Bugs
+
+No unfixed bugs on the website.
 
 
 ## Technologies Used
@@ -264,23 +275,20 @@ Google Dev Tools: Leveraged for debugging and testing features, as well as resol
 
 Visual Studio Code (VS Code): Utilized as a source code editor.
 
+Paint: Used to edit the images in the Read Me. 
+
 [Adobe Express](https://www.adobe.com/br/express/feature/image/resize): Utilized for image manipulation and resizing.
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): Employed to validate the correctness and compliance of CSS code. 
 
 [The W3C Markup Validation Service](https://validator.w3.org/): Used to validate the accuracy and validity of HTML code. 
 
-Paint: Used to edit the images in the Read Me. 
-
-[Coolors](https://coolors.co/f08080-f4978e-f8ad9d-fbc4ab-ffdab9): Utilized to create the color palette. 
-
-[Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/): used to source high-quality images for the website. 
-
 [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): used as a resource for implementing flexible and responsive layouts on the website. 
 
 [GitHub](https://github.com/): Used to save and store the website files. 
 
-[Am I Responsive?](https://ui.dev/amiresponsive): Utilized to view the website's appearance and responsiveness across a range of devices. 
+[Am I Responsive?](https://ui.dev/amiresponsive): Utilized to view the website's appearance and responsiveness across a range of devices.  
+
 ## Deployment  
 
 * Go to the main page of your GitHub repository and click on the "Settings" button.
@@ -294,3 +302,24 @@ Paint: Used to edit the images in the Read Me.
 * It may take a few minutes for the website to be displayed on GitHub Pages.
 
 You can access the live website by clicking [here](https://brunarihl.github.io/BarMix-Dublin/index.html).
+
+## Credits
+
+### Media
+
+[Coolors](https://coolors.co/f08080-f4978e-f8ad9d-fbc4ab-ffdab9): Utilized to create the color palette. 
+
+[Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/): used to source high-quality images for the website. 
+
+### Acknowledgments
+
+I want to express my gratitude to the individuals who provided assistance and support throughout the process of completing this project:
+
+ * to my mentor, Jubril Akolade, for his valuable feedback, for patiently addressing all my doubts, and for always being available and willing to help.
+
+ * to my friends Ivan Frezza and Bruna Andrelieri helped me by clarifying some doubts regarding my codes.
+
+ *  to my husband for his unwavering support and patience during my study period. 
+
+ *
+
