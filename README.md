@@ -2,9 +2,7 @@
 
 The Barmix website is a platform that provides services of professional bartenders who cater to events, parties and workshops in Dublin.  
 
-![Barmix website shown on a range of devices](/assets/images/responsive-screens.jpg)  
-
-![Barmix Responsive](/assets/images/responsive-screens2.jpg)  
+![Barmix website shown on a range of devices](/assets/images/responsive-screens2.jpg)  
 
 ## Demo
 The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/index.html)!
@@ -15,7 +13,6 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
   * [Website Overview](#website-overview)
   * [User base](#user-base)
   * [Website Goals](#website-goals)
-
 
 * [Design](#design)
   * [Color Palette](#color-palette)
