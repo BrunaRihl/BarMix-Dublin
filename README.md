@@ -137,7 +137,13 @@ The website consists of four pages: a welcoming home page, a detailed services p
 
 * Clicking on these icons will open the links in new tabs for ease of navigation.  
 
-![Barmix footer](/assets/images/footer.jpg)
+![Barmix footer](/assets/images/footer.jpg)  
+
+### Features and resources to be added in the future  
+
+* Add prices for services and packages to enhance clarity for users;  
+* Create a page with weekly updated cocktail recipe ideas, providing users with a reason to revisit the website regularly;  
+* Implement an online service booking system, streamlining the contract process with integrated scheduling and payment tools.
 
 
 ## Full Testing 
