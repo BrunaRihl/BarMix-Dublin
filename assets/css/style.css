@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora:ital@1&display=swap');
 
 :root {
-
     --main-primary: #fdfdfd;
     --main-secondary: #cdcdcd;
     --text-primary: #153651;
@@ -69,7 +68,6 @@ header a {
     letter-spacing: 2px;
 }
 
-
 #menu li {
     list-style-type: none;
     display: inline-block;
@@ -99,6 +97,7 @@ header a {
 
 
 /* hero image */
+
 #hero-out {
     height: 600px;
     width: 100%;
@@ -209,6 +208,44 @@ header a {
     font-weight: bold;
 }
 
+
+/* why choose us */
+
+#choose-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#choose-us-content {
+    background-image: url("../images/choose-us2.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 0% 20%;
+    display: flex;
+    align-items: stretch;
+    color: var(--white);
+    text-align: center;
+    justify-content: space-around;
+}
+
+#choose-us-content i {
+    color: var(--white);
+    font-size: 200%;
+    padding: 20px;
+}
+
+#choose-us-content div {
+    color: var(--white);
+    background-color: rgba(0, 0, 0, .5);
+    padding: 70px 10px;
+}
+
+
+/* services */
+
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -251,41 +288,6 @@ header a {
 
 .card-packages ul li {
     margin-bottom: 20px;
-}
-
-
-/* why choose us */
-
-#choose-us {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#choose-us-content {
-    background-image: url("../images/choose-us2.jpg");
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    width: 100%;
-    border-radius: 0% 20%;
-    display: flex;
-    align-items: stretch;
-    color: var(--white);
-    text-align: center;
-    justify-content: space-around;
-}
-
-#choose-us-content i {
-    color: var(--white);
-    font-size: 200%;
-    padding: 20px;
-}
-
-#choose-us-content div {
-    color: var(--white);
-    background-color: rgba(0, 0, 0, .5);
-    padding: 70px 10px;
 }
 
 
@@ -399,6 +401,7 @@ header a {
 
 
 /* footer */
+
 footer {
     margin-top: 20px;
     height: 150px;
@@ -431,14 +434,15 @@ footer p {
     margin: 20px;
 }
 
-
 .social-networks i {
     transition: color 0.5s ease;
     font-size: 200%;
     color: var(--text-primary)
 }
 
+
 /* On screens that are 860px or less */
+
 @media screen and (max-width: 860px) {
 
     header {
@@ -541,11 +545,12 @@ footer p {
 
     .contact-section {
         margin-bottom: 50px;
-
     }
 }
 
+
 /* On screens that are 330px or less*/
+
 @media screen and (max-width: 330px) {
     .form {
         max-width: 250px;

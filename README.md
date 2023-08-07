@@ -43,7 +43,7 @@ The live demo is available at [here](https://brunarihl.github.io/BarMix-Dublin/i
   * [Acknowledgments](#acknowledgments)
 
 
-## User Experience (UX) 
+## User Experience
 
 ### Website overview 
 
@@ -233,20 +233,20 @@ The accessibility, performance, best practices, and SEO (Search Engine Optimizat
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| `Navbar` |
+| **`Navbar`** |
 |  |  |  |  |  |
 | BarMix Logo | When clicked the user will be redirected to the home page. | Clicked Logo | Redirected to the home page. | Pass |
 | Menu-hover | When hovering over the menu items, borders of the text should appear to indicate action.| Hover over menu | Borders of the text appear. | Pass |
 | Menu-clicked | When a menu page is active/open, it remains in bold to help users easily identify their current location on the page.| Open menu pages | Text remains bold. | Pass |
 | Home Page Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
 |  Services Link | When clicked the user will be redirected to the services. | Clicked link | Redirected to the services page. | Pass |
-| Gallery Link | When clicked the user will be redirected to the gallery. | Clicked link | Redirected to the gallery page | Pass |
-| Contact Us Link | When clicked the user will be redirected to the contac us page. | Clicked link | Redirected to the contact page | Pass |
-| `Home` |
+| Gallery Link | When clicked the user will be redirected to the gallery. | Clicked link | Redirected to the gallery page. | Pass |
+| Contact Us Link | When clicked the user will be redirected to the contac us page. | Clicked link | Redirected to the contact page. | Pass |
+| **`Home`** |
 |  |  |  |  |  |
-| Link to Services - About us section | In the "About Us" section of the homepage, there is a link to redirect the user to the services page. | Clicked services link | Redirected to the services page | Pass |
+| Link to Services - About us section | In the "About Us" section of the homepage, there is a link to redirect the user to the services page. | Clicked services link | Redirected to the services page. | Pass |
 | Hero image effect | When the Barmix website is loaded, the hero image should display a zoom out and unblur effect.| Clicked the refresh button | Hero image features a zoom out and unblur effect. | Pass |
-| `Form` |
+| **`Form`** |
 |  |  |  |  |  |
 | Text boxes - hover | Hovering over the text boxes should turn their boarders bold white to indicate action. | Hover over text boxes | Text boxes turn their boarders bold white. | Pass |
 | Text boxes - clicked | When a text box is selected, it should have a transition effect and remain in a light blue color to better indicate the user's typing location.| Clicked text boxes | Text remains light blue with transition efect. | Pass |
@@ -255,7 +255,7 @@ The accessibility, performance, best practices, and SEO (Search Engine Optimizat
 | Email input | The email input should include an email address. | Entered incorrect format text | Unable to submit, Tooltip informs user to use an email address format text. | Pass |
 | Send Button Hover | Hovering over the send button turns it into white color to indicate button is clickable and actionable. | Hover over send button | send button turns it into white color. | Pass |
 | Send Button | After clicking the send button, the user is taken to a confirmation page that shows the information they submitted through the Code Institute dump form.| Clicked send button | Directed to a confirmation page. | Pass |
-| `Footer` |
+| **`Footer`** |
 |  |  |  |  |  |
 | Icon -hover | When hovering over the footer icons, it should have a transition effect and remain in a light blue color and bold to indicate action.| Hover over footer | Icons turn bold and light blue with transition. | Pass |
 | Icon-clicked | Clicking on social network icons in the footer opens new windows directing users to the respective social networks.| Clicked social networks Icons | Opens the pages in a new window. | Pass |
