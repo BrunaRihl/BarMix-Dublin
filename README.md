@@ -51,7 +51,7 @@ Barmix is a fictional team of bartenders that I created. The Barmix website is a
 
 ### User base  
 
-  * People seeking bartender services residents of Dublin or planning events in Dublin. 
+  * Individuals in Dublin seeking bartender services or planning events within the city. 
 
   * Event Planners: Businesses and individuals organizing corporate events, private parties, and other gatherings, seeking professional bartenders to create memorable experiences and serve high-quality cocktails. 
 
@@ -249,11 +249,11 @@ The accessibility, performance, best practices, and SEO (Search Engine Optimizat
 | **`Form`** |
 |  |  |  |  |  |
 | Text boxes - hover | Hovering over the text boxes should turn their boarders bold white to indicate action. | Hover over text boxes | Text boxes turn their boarders bold white. | Pass |
-| Text boxes - clicked | When a text box is selected, it should have a transition effect and remain in a light blue color to better indicate the user's typing location.| Clicked text boxes | Text remains light blue with transition efect. | Pass |
-| Your message - text box | The text box for the user's message should have pre-written instructions about the message. When the user starts typing, the pre-written text should disappear.|  Text entered | The pre-written text disappear. | Pass |
-| Required Field | If the send button is clicked and there are unfilled boxes required field (First Name, Last Name, Email Adress and Your Message), a warning message will appear, indicating the first missing information. |  Left text boxes blank and send | Unable to submit, Tooltip informs that this field is required.| Pass |
+| Text boxes - clicked | When a text box is selected, it should have a transition effect and remain in a light blue color to better indicate the user's typing location.| Clicked text boxes | Text remains light blue with transition effect. | Pass |
+| Your message - text box | The text box for the user's message should have pre-written instructions about the message. When the user starts typing, the pre-written text should disappear.|  Text entered | The pre-written text disappears. | Pass |
+| Required Field | If the "Send" button is clicked and any of the required fields (First Name, Last Name, Email Address, and Your Message) are left unfilled, a warning message will promptly appear, indicating the first missing information. |  Left text boxes blank and send | Unable to submit, Tooltip informs that this field is required.| Pass |
 | Email input | The email input should include an email address. | Entered incorrect format text | Unable to submit, Tooltip informs user to use an email address format text. | Pass |
-| Send Button Hover | Hovering over the send button turns it into white color to indicate button is clickable and actionable. | Hover over send button | send button turns it into white color. | Pass |
+| Send Button Hover | When hovering over the "Send" button, it transitions to a white color, signifying its clickability and responsiveness. | Hover over send button | send button transitions it to a white color. | Pass |
 | Send Button | After clicking the send button, the user is taken to a confirmation page that shows the information they submitted through the Code Institute dump form.| Clicked send button | Directed to a confirmation page. | Pass |
 | **`Footer`** |
 |  |  |  |  |  |
@@ -306,7 +306,7 @@ Visual Studio Code (VS Code): Utilized as a source code editor.
 
 [Adobe Express](https://www.adobe.com/br/express/feature/image/resize): Utilized for image manipulation and resizing.
 
-Paint: Used to edit the images in the ReadMe. 
+Paint: Used to edit the images in the README. 
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): Employed to validate the correctness and compliance of CSS code. 
 
@@ -340,7 +340,7 @@ You can access the live website by clicking [here](https://brunarihl.github.io/B
 
 * [Smashing Magazine](https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/): I used this reference to manage how background images adjust within their container.  
 
-* [ReadMe Example](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md): To write the ReadMe file, I followed the structure and table format (testing section) from the readme-examples repository by Kera Cudmore.
+* [README Example](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md): To write the README file, I followed the structure and table format (testing section) from the readme-examples repository by Kera Cudmore.
 
 * The foundation of the website's code/design was established using the CI Love Running project as a starting point.
 
@@ -360,11 +360,11 @@ I want to express my gratitude to the individuals who provided assistance and su
 
  * to my mentor, Jubril Akolade, for his valuable feedback, for patiently addressing all my doubts, and for always being available and willing to help;
 
- * to Laura Mayock, Cohort Facilitator from Code Institute, for always guiding our studies in the best possible way and always being willing to help with any issue.
+ * to Laura Mayock, Cohort Facilitator from Code Institute, for always guiding our studies in the best possible way and always being willing to help with any issue;
 
  * to my friends Ivan Frezza and Bruna Andelieri, who helped me by clarifying some doubts regarding my codes;
 
- *  to my husband Jasser for his unwavering support and patience during my study period; 
+ *  to my husband Jasser for his unwavering support and patience during my study period.
 
 
 
